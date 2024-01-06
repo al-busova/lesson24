@@ -1,0 +1,77 @@
+body {
+  background-color: rgb(234, 203, 203);
+}
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.list {
+  list-style: none;
+  padding: 0;
+}
+.link {
+  text-decoration: none;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.icon-heart {
+  color: red;
+}
+.icon-heart:hover {
+  color: blue;
+}
+.soc-link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.soc-icon {
+  fill: rgba(175, 177, 184, 1);
+}
+.soc-link:hover {
+  background-color: rgba(33, 150, 243, 1);
+}
+.soc-link:hover .soc-icon {
+  fill: white;
+}
+.contact-link {
+    color: green;
+    display: flex;
+    align-items: center;
+}
+.contact-link:hover {
+  color: red;
+}
+.contact-icon {
+    fill: green;
+}
+.contact-link:hover .contact-icon {
+  fill: red;
+}
